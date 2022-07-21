@@ -1,0 +1,20 @@
+[package]
+name = "collections"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "1"
+src = "src/1.rs"
+
+[[bin]]
+name = "2"
+src = "src/2.rs"
+
+[[bin]]
+name = "3"
+src = "src/3.rs"
