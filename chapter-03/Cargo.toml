@@ -1,0 +1,17 @@
+[package]
+name = "chapter-03"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "fibonacci"
+src = "src/fibonacci.rs"
+
+[[bin]]
+name = "fahrenheit"
+src = "src/fahrenheit.rs"
